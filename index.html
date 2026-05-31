@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rida Fazil — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- BACKGROUND GLOW BLOBS -->
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+  <div class="bg-blob blob-3"></div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a class="nav-logo" href="#about">RF<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mob-link">About</a>
+      <a href="#projects" class="mob-link">Projects</a>
+      <a href="#skills" class="mob-link">Skills</a>
+      <a href="#experience" class="mob-link">Experience</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO / ABOUT -->
+  <section id="about" class="section hero-section">
+    <div class="hero-inner">
+      <div class="hero-eyebrow reveal">
+        <span class="eyebrow-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name reveal">
+        Rida<br /><em>Fazil</em>
+      </h1>
+      <p class="hero-title reveal">
+        Computer Science Student &nbsp;·&nbsp; Builder &nbsp;·&nbsp; Aspiring Software Developer &nbsp;·&nbsp; AI/ML Enthusiast
+      </p>
+      <p class="hero-bio reveal">
+        I'm a Computer Science student focused on building a strong foundation in software development. I enjoy learning how systems work, building projects, and improving my problem-solving skills through hands-on practice.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint reveal">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">02 / Projects</span>
+        <h2 class="section-title">Things I've <em>Built</em></h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="card-top">
+            <div class="card-icon">
+              <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h10a4 4 0 004-4v-1a7 7 0 00-7-7H6a3 3 0 000 6z"/></svg>
+            </div>
+            <a href="https://adirxynn.github.io/Weather-App/" class="card-github" aria-label="GitHub" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+          <h3 class="card-title">Weather App</h3>
+          <p class="card-desc">A responsive weather application that fetches real-time weather data using an API. Built using HTML, CSS, and JavaScript.</p>
+          <div class="card-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">REST API</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="card-top">
+            <div class="card-icon">
+              <svg width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+            </div>
+            <a href="https://adirxynn.github.io/Taskflow/" class="card-github" aria-label="GitHub" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+          <h3 class="card-title">TaskFlow</h3>
+          <p class="card-desc">A simple task management app that allows users to add, complete, and delete tasks. Focused on DOM manipulation and local storage.</p>
+          <div class="card-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">LocalStorage</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">03 / Skills</span>
+        <h2 class="section-title">What I <em>Know</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h4 class="skill-group-title">Frontend</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group-title">Languages</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group-title">Tools</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group-title">Tech/Concepts</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">API (REST APIs)</span>
+            <span class="skill-tag">DOM Manipulation</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group-title">Currently Learning</h4>
+          <div class="skill-tags">
+            <span class="skill-tag learning">AI / ML Fundamentals</span>
+            <span class="skill-tag learning">React</span>
+            <span class="skill-tag learning">DSA Basics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">04 / Experience</span>
+        <h2 class="section-title">Where I <em>Stand</em></h2>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-icon">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        </div>
+        <div class="exp-content">
+          <h3 class="exp-title">Currently Building My Foundation</h3>
+          <ul class="exp-list">
+            <li>Focused on building personal projects and strengthening fundamentals in programming, web development, Artifical Intelligence and Machine Learning.</li>
+            <li>Actively learning through hands-on practice, online resources, and coursework.</li>
+            <li>Seeking internships and collaborative projects to gain real-world exposure.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-label">05 / Contact</span>
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+      </div>
+      <p class="contact-sub reveal">I'm always open to new opportunities, collaborations, or just a good conversation about tech.</p>
+      <div class="contact-grid reveal">
+        <a href="ridafazil.01@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+          </div>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">ridafazil.01@gmail.com</span>
+        </a>
+        <a href="https://github.com/adirxynn" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </div>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">https://github.com/adirxynn</span>
+        </a>
+        <div class="contact-card no-link">
+          <div class="contact-icon">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+          </div>
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Delhi, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Designed & built by <strong>Rida Fazil</strong> · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
