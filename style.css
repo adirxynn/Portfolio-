@@ -285,8 +285,6 @@ body {
 
 .hero-bio {
   max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 1.05rem;
   color: var(--text-2);
   line-height: 1.75;
